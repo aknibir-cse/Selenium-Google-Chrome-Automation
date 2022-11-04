@@ -3,13 +3,14 @@ package com.selenium.browser;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+
 public class GoogleChromeOpen {
 
 	public static void main(String[] args) {
 		
 		//Path of Executable Driver Path
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Eclipse-Chrome-Driver\\chromedriver.exe");
+				"C:\\Users\\aknib\\eclipse-workspace\\Selenium4\\ChromeDriver\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
 		
